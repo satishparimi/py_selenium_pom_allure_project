@@ -11,7 +11,6 @@ class TestLogin:
     @allure.feature("JIRA-78990 : Validate user registration feature")
     @allure.testcase("http://automationpractice.com/", "Verify user registration page")
     def test_user_Registration(self):
-
         # Page Factory
         signup_page = SignUpPage(self.driver)
         home_page = HomePage(self.driver)
@@ -33,3 +32,5 @@ class TestLogin:
         signup_page.clickOnRegister()
         signup_page.assertSignOutAfterRegistration()
         signup_page.signout_From_Application()
+
+        # Done with User Registration Scenario Automation
