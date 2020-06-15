@@ -1,0 +1,5 @@
+{
+  "browser": "Chrome",
+  "implicitWait" : 10,
+  "baseURL" : "http://automationpractice.com/index.php"
+}
